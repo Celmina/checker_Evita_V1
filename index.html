@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Year of Making Money 2025 ✨</title>
+    <link 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+      rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" 
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Year Of Making Money</h1>
+            <h2>2025</h2>
+        </header>
+
+        <div class="calendar-container">
+            <!-- We don't use week numbers, so no separate calendar-wrapper. -->
+            <div class="days-grid">
+                <!-- Sunday (Day 7): Gym, Make money, School -->
+                <div class="day-column" data-day="SUN">
+                    <h3>SUN</h3>
+                    <div class="squares-group" data-task="Go to gym"></div>
+                    <div class="squares-group" data-task="Make money"></div>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+
+                <!-- Monday (Day 1): Thesis, Ecom, School -->
+                <div class="day-column" data-day="MON">
+                    <h3>MON</h3>
+                    <div class="squares-group" data-task="Work on thesis (4 hours)"></div>
+                    <div class="squares-group" data-task="Ecom.AI project (4 hours)"></div>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+
+                <!-- Tuesday (Day 2): Thesis, Gym, School -->
+                <div class="day-column" data-day="TUE">
+                    <h3>TUE</h3>
+                    <div class="squares-group" data-task="Work on thesis (4 hours)"></div>
+                    <div class="squares-group" data-task="Go to gym"></div>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+
+                <!-- Wednesday (Day 3): Thesis, Gym, School -->
+                <div class="day-column" data-day="WED">
+                    <h3>WED</h3>
+                    <div class="squares-group" data-task="Work on thesis (4 hours)"></div>
+                    <div class="squares-group" data-task="Go to gym"></div>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+
+                <!-- Thursday (Day 4): Thesis, Ecom, School -->
+                <div class="day-column" data-day="THU">
+                    <h3>THU</h3>
+                    <div class="squares-group" data-task="Work on thesis (4 hours)"></div>
+                    <div class="squares-group" data-task="Ecom.AI project (4 hours)"></div>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+
+                <!-- Friday (Day 5): Thesis, School -->
+                <div class="day-column" data-day="FRI">
+                    <h3>FRI</h3>
+                    <div class="squares-group" data-task="Work on thesis (4 hours)"></div>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+
+                <!-- Saturday (Day 6): School -->
+                <div class="day-column" data-day="SAT">
+                    <h3>SAT</h3>
+                    <div class="squares-group" data-task="School"></div>
+                </div>
+            </div>
+
+            <!-- Legend updated to reflect new tasks -->
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="circle thesis checked"></div>
+                    <span>Work on thesis (4 hours)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="circle ecom checked"></div>
+                    <span>Ecom.AI project (4 hours)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="circle gym checked"></div>
+                    <span>Go to gym</span>
+                </div>
+                <div class="legend-item">
+                    <div class="circle money checked"></div>
+                    <span>Make money</span>
+                </div>
+                <div class="legend-item">
+                    <div class="circle school checked"></div>
+                    <span>School</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats section can remain the same -->
+        <div class="stats">
+            <div class="stat-card">
+                <h4>✅ Tasks Completed</h4>
+                <p id="tasksCompleted">0</p>
+            </div>
+            <div class="stat-card">
+                <h4>🎯 Required Total</h4>
+                <p>413</p>
+            </div>
+            <div class="stat-card">
+                <h4>⏳ Days Remaining</h4>
+                <p id="daysRemaining">0</p>
+            </div>
+            <div class="stat-card">
+                <h4>📊 Completion Rate</h4>
+                <p id="completionRate">0%</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <p>Each circle represents a single day</p>
+            <p>Click to mark a task as complete</p>
+            <p>You may take up to 8 weeks off in total</p>
+            <p>
+                By the end of 2025, minimum of 413 out of 469 squares have to be filled
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
