@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     }
     //const API_URL = 'http://localhost:3000/api';
-    const API_URL = 'https://calendar-backend-hm9ll8cv7-221rdb187s-projects.vercel.app/api';
+    const API_URL = 'https://checker-evita-v1-63pzimdja-221rdb187s-projects.vercel.app/api';
     
     const response = await fetch(API_URL);
 

@@ -1,5 +1,5 @@
 {
-  "name": "calendar-backend",
+  "name": "calendar-backend-evita",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
